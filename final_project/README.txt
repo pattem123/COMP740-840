@@ -27,16 +27,22 @@
 ### Backend : - Django API named main.
 ### Frontend : - html and json
 ### Language : -Python pogramming
-     
+
 
 
 Errors :
-1.I somehow started getting this error when running jupyter notebook.
+1.I got error in pickling when I wanted to use flask to develop App using different mnist dataset source.
+
+  ## Can't pickle lock_objects and wasn't able to clear the error and had to go for other framework using Django.
+
+2. Json file path error in utils.py file
+
+3.I somehow started getting this error when running jupyter notebook.
 
 ##handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
 ValueError: signal only works in main thread
 
-what I did :
+How I resolved :
 >> upgraded python kernel using following command :
 
     pip install --upgrade ipykernel
